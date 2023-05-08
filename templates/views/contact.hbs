@@ -1,0 +1,101 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Non Profit ORG
+    </title>
+  </head>
+  <body>
+
+    {{!-- <div class="container-fluid my-5">
+      <div class="row my-5 py-5">
+        <div class="col-md-5 col-5 m-auto">
+          <h1>Donate Now</h1>
+          <form action="/contact" method="POST">
+            <div class="form-group">
+              <label for="exampleInputPassword1">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                name="name"
+                id="exampleInputPassword1"
+                placeholder="Name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Enter email"
+              />
+              <small id="emailHelp" class="form-text text-muted">We'll never
+                share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Bkash Number</label>
+              <input
+                type="number"
+                name="phone"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Bkash Number"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Transaction ID</label>
+              <input
+                type="text"
+                name="message"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Transaction ID"
+              />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+        </div>
+      </div>
+    </div> --}}
+    
+    <div class="container-fluid bg-light p-5">
+ <h1 class="text-center">Donate Now</h1>
+ <br><br>
+ <form action="/contact" method="POST" class="col-4 mx-auto">
+  <div class="">
+     <input type="text" class="form-control" placeholder="Name" aria-label="Name" name="name">
+  </div>
+
+  <div class="my-2">
+      <input type="text" class="form-control" placeholder="Email address" aria-label="Email address" name="email">
+  </div>
+
+   <div class="">
+       <input type="text" class="form-control" placeholder="Bkash Number" aria-label="Bkash Number" name="phone">
+  </div>
+ 
+ <div class="my-2">
+   <input type="text" class="form-control" placeholder="Transaction ID" aria-label="Transaction ID" name="transaction">
+  </div>
+
+ <br><br><br><br><br><br>
+   <button type="submit" class="btn btn-primary" >Submit</button>
+ </form>
+
+  <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> 
+    </div>
+
+    <script src="../jq/jquery.js" type="text/javascripy"></script>
+    <script src="../js/bootstrap.js" type="text/javascripy"></script>
+
+  </body>
+</html>
